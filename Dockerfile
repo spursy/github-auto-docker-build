@@ -1,3 +1,4 @@
 FROM nginx:alpine
 
-ENTRYPOINT ["nginx", "-g", "daemon off;"]~
+ENTRYPOINT ["nginx", "-g", "daemon off;"]
+
